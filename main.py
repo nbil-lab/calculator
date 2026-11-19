@@ -16,7 +16,7 @@ try:
     div_result = calculator.divide()
     print(f"Division is equal: {div_result}")
 except ZeroDivisionError:
-    print(f"Division by zero!")
+    print("Division by zero!")
 
 print("\n")
 
@@ -36,4 +36,4 @@ try:
     div_result2 = calculator2.divide()
     print(f"Division is equal: {div_result2}")
 except ZeroDivisionError:
-    print(f"Division by zero!")
+    print("Division by zero!")
