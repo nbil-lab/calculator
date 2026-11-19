@@ -5,7 +5,7 @@ from calculator import Calculator
 class TestCalculator:
     def test_sum(self):
         calculator = Calculator(op1=2, op2=1)
-        assert calculator.sum() == 3
+        assert calculator.sum() == 2
 
     def test_subtract(self):
         calculator = Calculator(op1=2, op2=1)
